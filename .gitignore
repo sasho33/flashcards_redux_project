@@ -1,0 +1,50 @@
+# Node.js
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+
+# Compiled JavaScript
+*.js
+*.js.map
+
+# Compiled CSS
+*.css
+*.css.map
+
+# Redux DevTools extension
+devtools-extension/
+
+# IDE and text editor configuration files
+/.vscode/
+/.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Webpack build manifest
+manifest.json
+
+# Jest test runner configuration
+/jest.config.js

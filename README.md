@@ -1,3 +1,33 @@
+# Flashcards Challenge Project
+
+## Overview
+
+Welcome to the Flashcards Challenge Project! This project is designed to help you practice using Redux and Redux Toolkit to manage the state of a flashcard-style quiz app. In this app, users can create their own topics, quizzes for those topics, and flashcards for those quizzes. Users can also interact with their quizzes by flipping the flashcards over.
+
+This README.md provides an overview of the project goals and instructions for implementing the app's Redux logic. While this project doesn't provide a step-by-step tutorial, it offers a series of open-ended requirements to guide you through the development process. Feel free to explore various approaches and use external resources such as Codecademy and the internet when needed.
+
+## Project Goals
+
+The primary objectives of this project are to practice using Redux and Redux Toolkit to build a flashcard quiz app. Here are the key goals:
+
+1. **Topics:** Implement the logic to allow users to create and manage topics. Each topic should have a name and an ID. Topics are the primary categories under which quizzes and flashcards are organized.
+
+2. **Quizzes:** Build the functionality to create and manage quizzes for specific topics. Quizzes should have a name and an associated topic ID to link them to a particular topic.
+
+3. **Flashcards:** Develop the feature to create and interact with flashcards within quizzes. Each flashcard should have a question, an answer, and an associated quiz ID. Users should be able to flip flashcards to reveal the answer.
+
+While the tasks are described in a specific order, you have the flexibility to implement them in a sequence that suits you best.
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone <repository-url>
+   ```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
