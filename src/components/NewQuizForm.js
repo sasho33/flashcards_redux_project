@@ -6,6 +6,7 @@ import ROUTES from '../app/routes';
 import { selectTopics } from '../features/topics/topicsSlice';
 // import selectors
 import { addQuiz } from '../features/quizzes/quizzesSlice';
+import { addQuizId } from '../features/topics/topicsSlice';
 
 export default function NewQuizForm() {
   const [name, setName] = useState('');
@@ -31,6 +32,9 @@ export default function NewQuizForm() {
 
     // dispatch add quiz action
     dispatch(addQuiz({ id: quizId, name, topicId, cardIds }));
+
+    // dispatch addQuizId action to update the topic's quizIds array
+    dispatch(addQuizId({ topicId, quizId }));
 
     navigate(ROUTES.quizzesRoute());
   };
